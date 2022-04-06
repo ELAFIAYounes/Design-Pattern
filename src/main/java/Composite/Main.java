@@ -5,6 +5,5 @@ public class Main {
         ArithmeticException numericOperand = new NumericOperand(3);
         ArithmeticException compositeOperand =  new CompositeOperand(new NumericOperand(3),numericOperand,'*');
         System.out.println(compositeOperand.getValue());
-        System.out.println("hello test");
     }
 }
